@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GravBall",
+			"Path": "C:\\GameDev\\GravBall\\GravBall\\Source\\GravBall.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GravBallEditor",
+			"Path": "C:\\GameDev\\GravBall\\GravBall\\Source\\GravBallEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

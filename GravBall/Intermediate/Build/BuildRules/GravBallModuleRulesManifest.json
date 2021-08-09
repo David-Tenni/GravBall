@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\GameDev\\GravBall\\GravBall\\Source\\GravBall\\GravBall.Build.cs",
+		"C:\\GameDev\\GravBall\\GravBall\\Source\\GravBall.Target.cs",
+		"C:\\GameDev\\GravBall\\GravBall\\Source\\GravBallEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

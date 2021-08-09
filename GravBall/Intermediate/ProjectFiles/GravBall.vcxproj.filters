@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GravBall.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9B285CBC-918C-4C53-8A90-2A5105AC4BD6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GravBall.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GravBallEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{76A2AD43-3C42-430F-BAFB-2005750810D6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GravBall">
+      <UniqueIdentifier>{E3D4DB4F-78CF-4959-BC2C-1C250E51EF94}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GravBall\GravBall.Build.cs">
+      <Filter>Source\GravBall</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GravBall\GravBall.cpp">
+      <Filter>Source\GravBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GravBall\GravBall.h">
+      <Filter>Source\GravBall</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GravBall\GravBallGameModeBase.cpp">
+      <Filter>Source\GravBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GravBall\GravBallGameModeBase.h">
+      <Filter>Source\GravBall</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
