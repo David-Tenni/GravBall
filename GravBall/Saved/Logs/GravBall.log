@@ -5899,3 +5899,11 @@ Goal_BP_C.ReceiveBeginPlay
 [2021.08.10-08.03.04:268][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
 [2021.08.10-08.03.04:312][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_94
 [2021.08.10-08.03.06:409][223]LogEditorViewport: Clicking on Actor (LMB): Goal_BP_C (Goal_BP2)
+[2021.08.10-08.13.03:724][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.08.10-08.13.03:727][157]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MobileStarterContent/Maps/Minimal_Default' took 0.036
+[2021.08.10-08.13.03:728][157]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Goal_BP] ([1] browsable assets)...
+[2021.08.10-08.13.03:742][157]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Goal_BP.Goal_BP]
+[2021.08.10-08.13.03:742][157]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Goal_BP]
+[2021.08.10-08.13.03:742][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Goal_BP" FILE="../../../../../../GameDev/GravBall/GravBall/Saved/Autosaves/Game/Blueprints/Goal_BP_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2021.08.10-08.13.03:757][157]LogSavePackage: Moving '../../../../../../GameDev/GravBall/GravBall/Saved/Goal_BP_Auto9D33B76564DCAA37253E875A5E05E7C66.tmp' to '../../../../../../GameDev/GravBall/GravBall/Saved/Autosaves/Game/Blueprints/Goal_BP_Auto9.uasset'
+[2021.08.10-08.13.03:758][157]LogFileHelpers: Auto-saving content packages took 0.031
