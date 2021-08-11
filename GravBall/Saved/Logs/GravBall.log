@@ -5907,3 +5907,27 @@ Goal_BP_C.ReceiveBeginPlay
 [2021.08.10-08.13.03:742][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Goal_BP" FILE="../../../../../../GameDev/GravBall/GravBall/Saved/Autosaves/Game/Blueprints/Goal_BP_Auto9.uasset" SILENT=false AUTOSAVING=true
 [2021.08.10-08.13.03:757][157]LogSavePackage: Moving '../../../../../../GameDev/GravBall/GravBall/Saved/Goal_BP_Auto9D33B76564DCAA37253E875A5E05E7C66.tmp' to '../../../../../../GameDev/GravBall/GravBall/Saved/Autosaves/Game/Blueprints/Goal_BP_Auto9.uasset'
 [2021.08.10-08.13.03:758][157]LogFileHelpers: Auto-saving content packages took 0.031
+[2021.08.10-11.46.48:978][ 46]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{db3999bf-b9fd-40ad-8fbf-af35de56912b}.
+[2021.08.10-11.46.48:978][ 46]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.10-11.46.49:089][ 46]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-11.46.49:089][ 46]LogAudioMixer: Display: 1: FrontRight
+[2021.08.10-22.51.47:022][ 65]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.10-22.51.47:815][ 65]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-22.51.47:815][ 65]LogAudioMixer: Display: 1: FrontRight
+[2021.08.10-22.51.47:984][ 66]LogHttp: Warning: 0000018A759DF900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.08.10-22.51.47:984][ 66]LogHttp: Warning: 0000018A759DF900: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.08.10-22.51.47:984][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x18993ea69b0 [can pipeline])
+[2021.08.10-22.51.47:984][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2021.08.10-22.51.47:985][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.204.167.8) port 443 (#1))
+[2021.08.10-22.51.47:985][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.08.10-22.51.47:985][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.08.10-22.51.47:985][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.08.10-22.51.47:985][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.08.10-22.51.47:985][ 66]LogHttp: Warning: 0000018A759DF900: libcurl info message cache 7 (Closing connection 1)
+[2021.08.10-22.51.48:065][ 66]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.10-22.51.48:106][ 66]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-22.51.48:107][ 66]LogAudioMixer: Display: 1: FrontRight
+[2021.08.10-22.51.49:194][ 67]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.08.10-22.51.49:205][ 67]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.10-22.51.49:230][ 67]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-22.51.49:230][ 67]LogAudioMixer: Display: 1: FrontRight
