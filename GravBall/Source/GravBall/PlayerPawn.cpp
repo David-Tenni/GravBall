@@ -15,7 +15,8 @@ APlayerPawn::APlayerPawn()
 void APlayerPawn::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	Player = GetWorld()->GetFirstPlayerController()->GetPawn();
+
 }
 
 // Called every frame
@@ -35,4 +36,23 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 void APlayerPawn::SpawnBall()
 {
 
+}
+FHitResult APlayerPawn::GetReachableObject() const
+{
+	FVector PlayerViewLocation = Player->GetActorLocation();
+
+	FHitResult Hit;
+	FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+	GetWorld()->LineTraceSingleByObjectType(
+		OUT Hit,
+		PlayerViewLocation,
+		LineTraceEnd(),
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody), TraceParams
+	);
+
+	AActor* ActorHit = Hit.GetActor();
+	if (ActorHit) {
+		UE_LOG(LogTemp, Log, TEXT("Actor within reach is: %s"), *(ActorHit->GetName()));
+	}
+	return Hit;
 }

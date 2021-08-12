@@ -22,7 +22,10 @@ protected:
 	virtual void BeginPlay() override;
 
 private:	
+	APlayerPawn* Player;
+
 	// Called every frame
 	void SpawnBall();
+	FHitResult GetReachableObject() const;
 
 };
