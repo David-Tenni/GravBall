@@ -12284,3 +12284,134 @@ Goal_BP_C.ReceiveBeginPlay
 [2021.08.12-04.36.36:306][729]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.08.12-04.36.36:405][729]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0135 seconds. Added 3602 classes and 861 folders.
 [2021.08.12-04.36.36:407][729]Display: HotReload took  1.9s.
+[2021.08.12-05.31.01:490][498]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.08.12-05.31.01:529][498]LogContentBrowser: Creating deferred item: NewFolder
+[2021.08.12-05.31.09:758][483]LogContentBrowser: Attempting asset rename: NewFolder -> Gamemodes
+[2021.08.12-05.31.09:759][483]LogContentBrowser: End creating deferred item NewFolder
+[2021.08.12-05.31.12:407][772]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.08.12-05.31.12:426][772]LogContentBrowser: Creating deferred item: NewFolder
+[2021.08.12-05.31.20:030][685]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2021.08.12-05.31.20:030][685]LogContentBrowser: End creating deferred item NewFolder
+[2021.08.12-05.33.09:629][ 88]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/GameDev/GravBall/GravBall/GravBall.uproject" -game -rocket -progress
+[2021.08.12-05.33.09:935][ 88]Discovering modules, targets and source code for project...
+[2021.08.12-05.33.12:237][ 88]Binding IntelliSense data...
+[2021.08.12-05.33.17:952][ 88]Binding IntelliSense data... 100%
+[2021.08.12-05.33.17:952][ 88]Writing project files...
+[2021.08.12-05.33.22:358][ 88]Writing project files... 100%
+[2021.08.12-05.33.22:465][ 88]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.08.12-05.33.22:471][ 88]Candidate modules for hot reload:
+[2021.08.12-05.33.22:471][ 88]  GravBall
+[2021.08.12-05.33.22:471][ 88]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,4090 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.12-05.33.38:752][ 88]CompilerResultsLog: New page: Compilation - Aug 13, 2021, 1:33:38 AM
+[2021.08.12-05.33.38:752][ 88]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.12-05.33.38:752][ 88]CompilerResultsLog: Creating makefile for GravBallEditor (no existing makefile)
+[2021.08.12-05.33.38:752][ 88]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog: Reflection code generated for GravBallEditor in 9.4887133 seconds
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog: Building GravBallEditor...
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [1/9] GravBall.init.gen.cpp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [2/9] GravBallPlayerController.cpp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [3/9] GravBall.cpp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [4/9] GravBallGameModeBase.cpp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [5/9] GravBallPlayerController.gen.cpp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [6/9] GravBallGameModeBase.gen.cpp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [7/9] UE4Editor-GravBall-4090.lib
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4090.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4090.exp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [8/9] UE4Editor-GravBall-4090.dll
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4090.suppressed.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4090.suppressed.exp
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog:   [9/9] GravBallEditor.target
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog: Total time in Parallel executor: 5.00 seconds
+[2021.08.12-05.33.38:753][ 88]CompilerResultsLog: Total execution time: 16.19 seconds
+[2021.08.12-05.33.38:753][ 88]LogMainFrame: MainFrame: Module compiling took 16.288 seconds
+[2021.08.12-05.33.38:801][ 88]LogClass: Could not find existing class GravBallPlayerController in package /Script/GravBall for HotReload, assuming new class
+[2021.08.12-05.33.38:810][ 88]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2021.08.12-05.33.38:820][ 88]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.12-05.33.39:034][ 88]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0136 seconds. Added 3603 classes and 861 folders.
+[2021.08.12-05.33.39:036][ 88]Display: HotReload took 16.6s.
+[2021.08.12-05.33.39:048][ 88]Warning: HotReload operation took 16.6s.
+[2021.08.12-05.33.39:195][ 88]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.08.12-05.33.39:542][ 88]LogHotReload: New module detected: UE4Editor-GravBall-4090.dll
+[2021.08.12-05.33.39:622][ 89]LogHotReload: Starting Hot-Reload from IDE
+[2021.08.12-05.33.39:719][ 89]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2021.08.12-05.33.39:727][ 89]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.12-05.33.39:741][ 89]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3603 classes and 861 folders.
+[2021.08.12-05.33.39:748][ 89]Display: HotReload took  0.1s.
+[2021.08.12-06.27.04:067][497]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/GameDev/GravBall/GravBall/GravBall.uproject" -game -rocket -progress
+[2021.08.12-06.27.04:374][497]Discovering modules, targets and source code for project...
+[2021.08.12-06.27.05:678][497]Binding IntelliSense data...
+[2021.08.12-06.27.07:203][497]Binding IntelliSense data... 100%
+[2021.08.12-06.27.07:203][497]Writing project files...
+[2021.08.12-06.27.10:528][497]Writing project files... 100%
+[2021.08.12-06.27.10:650][497]Candidate modules for hot reload:
+[2021.08.12-06.27.10:650][497]  GravBall
+[2021.08.12-06.27.10:650][497]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,1716 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: New page: Compilation - Aug 13, 2021, 2:27:17 AM
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Creating makefile for GravBallEditor (no existing makefile)
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Reflection code generated for GravBallEditor in 3.3439917 seconds
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Building GravBallEditor...
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   [1/6] GravBall.init.gen.cpp
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   [2/6] PlayerPawn.cpp
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   [3/6] PlayerPawn.gen.cpp
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   [4/6] UE4Editor-GravBall-1716.lib
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-1716.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-1716.exp
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   [5/6] UE4Editor-GravBall-1716.dll
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-1716.suppressed.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-1716.suppressed.exp
+[2021.08.12-06.27.17:119][497]CompilerResultsLog:   [6/6] GravBallEditor.target
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Total time in Parallel executor: 1.51 seconds
+[2021.08.12-06.27.17:119][497]CompilerResultsLog: Total execution time: 6.39 seconds
+[2021.08.12-06.27.17:119][497]LogMainFrame: MainFrame: Module compiling took 6.476 seconds
+[2021.08.12-06.27.17:467][497]LogClass: Could not find existing class PlayerPawn in package /Script/GravBall for HotReload, assuming new class
+[2021.08.12-06.27.17:480][497]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0009 seconds. Added 3 classes and 2 folders.
+[2021.08.12-06.27.17:495][497]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.12-06.27.17:762][497]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0155 seconds. Added 3604 classes and 861 folders.
+[2021.08.12-06.27.17:764][497]Display: HotReload took  7.1s.
+[2021.08.12-06.27.17:767][497]Warning: HotReload operation took  7.1s.
+[2021.08.12-06.27.18:545][497]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/GameDev/GravBall/GravBall/Source/GravBall/PlayerPawn.cpp'
+[2021.08.12-06.27.18:567][497]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.08.12-06.27.18:988][497]LogHotReload: New module detected: UE4Editor-GravBall-1716.dll
+[2021.08.12-06.27.19:040][498]LogHotReload: Starting Hot-Reload from IDE
+[2021.08.12-06.27.19:080][498]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2021.08.12-06.27.19:096][498]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.12-06.27.19:113][498]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3604 classes and 861 folders.
+[2021.08.12-06.27.19:121][498]Display: HotReload took  0.1s.
+[2021.08.12-07.03.56:206][ 58]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ae77c13f-9d3f-4728-a3aa-b4f5642ef260}.
+[2021.08.12-07.03.56:508][ 58]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.12-07.03.56:560][ 58]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.12-07.03.56:560][ 58]LogAudioMixer: Display: 1: FrontRight
+[2021.08.12-07.09.31:879][555]Candidate modules for hot reload:
+[2021.08.12-07.09.31:879][555]  GravBall
+[2021.08.12-07.09.31:879][555]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,4463 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.12-07.09.31:881][555]Warning: Starting HotReload took  0.1s.
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: New page: Compilation - Aug 13, 2021, 3:09:38 AM
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.12-07.09.38:286][277]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: Reflection code generated for GravBallEditor in 3.4506844 seconds
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: Building GravBallEditor...
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.12-07.09.38:286][277]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.08.12-07.09.38:286][277]CompilerResultsLog:   [1/5] PlayerPawn.gen.cpp
+[2021.08.12-07.09.38:286][277]CompilerResultsLog:   [2/5] PlayerPawn.cpp
+[2021.08.12-07.09.38:287][277]CompilerResultsLog:   [3/5] UE4Editor-GravBall-4463.lib
+[2021.08.12-07.09.38:287][277]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4463.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4463.exp
+[2021.08.12-07.09.38:287][277]CompilerResultsLog:   [4/5] UE4Editor-GravBall-4463.dll
+[2021.08.12-07.09.38:287][277]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4463.suppressed.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-4463.suppressed.exp
+[2021.08.12-07.09.38:287][277]CompilerResultsLog:   [5/5] GravBallEditor.target
+[2021.08.12-07.09.38:287][277]CompilerResultsLog: Total time in Parallel executor: 2.34 seconds
+[2021.08.12-07.09.38:287][277]CompilerResultsLog: Total execution time: 6.33 seconds
+[2021.08.12-07.09.38:287][277]LogMainFrame: MainFrame: Module compiling took 6.416 seconds
+[2021.08.12-07.09.38:407][277]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.08.12-07.09.38:419][277]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.12-07.09.38:594][277]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0108 seconds. Added 3604 classes and 861 folders.
+[2021.08.12-07.09.38:596][277]Display: HotReload took  6.8s.
+[2021.08.12-08.59.42:232][645]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{e96cdf0d-0bb0-49c6-8932-09c84e798bfc}.
+[2021.08.12-08.59.42:232][645]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.12-08.59.42:259][645]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.12-08.59.42:259][645]LogAudioMixer: Display: 1: FrontRight

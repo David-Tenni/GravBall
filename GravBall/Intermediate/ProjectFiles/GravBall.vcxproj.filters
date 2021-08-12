@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GravBall.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9B285CBC-918C-4C53-8A90-2A5105AC4BD6}</UniqueIdentifier>
+      <UniqueIdentifier>{FC2D77B0-BB56-46CF-994A-57C8F836D1F6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GravBall.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{76A2AD43-3C42-430F-BAFB-2005750810D6}</UniqueIdentifier>
+      <UniqueIdentifier>{B49BA15B-0641-4CD7-A79F-2CA6809DBC2E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GravBall">
-      <UniqueIdentifier>{E3D4DB4F-78CF-4959-BC2C-1C250E51EF94}</UniqueIdentifier>
+      <UniqueIdentifier>{FEB1EC9B-28B6-45EB-BF16-102408142F3E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GravBall\GravBall.Build.cs">
       <Filter>Source\GravBall</Filter>
@@ -39,6 +39,18 @@
       <Filter>Source\GravBall</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GravBall\GravBallGameModeBase.h">
+      <Filter>Source\GravBall</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GravBall\GravBallPlayerController.cpp">
+      <Filter>Source\GravBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GravBall\GravBallPlayerController.h">
+      <Filter>Source\GravBall</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GravBall\PlayerPawn.cpp">
+      <Filter>Source\GravBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GravBall\PlayerPawn.h">
       <Filter>Source\GravBall</Filter>
     </ClInclude>
   </ItemGroup>
