@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGravBall_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEA176A78,
+				0x88F0FCD3,
 				0xFEB01E8C,
 				METADATA_PARAMS(nullptr, 0)
 			};

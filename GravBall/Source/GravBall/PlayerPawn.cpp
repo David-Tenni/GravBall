@@ -35,7 +35,13 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void APlayerPawn::SpawnBall()
 {
-
+	if(Ball)
+	{
+		FHitResult Hit = GetReachableObject();
+		FRotator TempRotation = Hit.ImpactPoint.Rotation();
+		FVector TempLocation = FVector(Hit.ImpactPoint.X, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);
+		GetWorld()->SpawnActor<AActor>(Ball*, TempLocation, TempRotation);
+	}
 }
 FHitResult APlayerPawn::GetReachableObject() const
 {
@@ -55,4 +61,13 @@ FHitResult APlayerPawn::GetReachableObject() const
 		UE_LOG(LogTemp, Log, TEXT("Actor within reach is: %s"), *(ActorHit->GetName()));
 	}
 	return Hit;
+}
+FVector APlayerPawn::LineTraceEnd() const
+{
+
+	FVector PlayerViewLocation = Player->GetActorLocation();
+	FRotator PlayerViewRotation = Player->GetActorRotation();
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewLocation, OUT PlayerViewRotation);
+	FVector LineTraceDirection = PlayerViewRotation.Vector();
+	return PlayerViewLocation + PlayerViewRotation.Vector() * ReachDistance;
 }

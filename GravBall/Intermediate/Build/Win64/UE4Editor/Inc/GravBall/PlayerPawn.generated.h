@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerPawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerPawn)
 
 
-#define GravBall_Source_GravBall_PlayerPawn_h_12_PRIVATE_PROPERTY_OFFSET
+#define GravBall_Source_GravBall_PlayerPawn_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ReachDistance() { return STRUCT_OFFSET(APlayerPawn, ReachDistance); }
+
+
 #define GravBall_Source_GravBall_PlayerPawn_h_9_PROLOG
 #define GravBall_Source_GravBall_PlayerPawn_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

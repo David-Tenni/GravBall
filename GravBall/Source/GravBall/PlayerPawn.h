@@ -22,10 +22,16 @@ protected:
 	virtual void BeginPlay() override;
 
 private:	
-	APlayerPawn* Player;
-
+	APawn* Player;
+	FVector LineTraceEnd() const;
+	
+	UPROPERTY(EditAnywhere)
+	float ReachDistance = 150.f;
 	// Called every frame
 	void SpawnBall();
 	FHitResult GetReachableObject() const;
+
+	UPROPERTY(EditAnywhere)
+	AActor* Ball;
 
 };
