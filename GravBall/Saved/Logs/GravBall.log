@@ -12455,3 +12455,47 @@ Goal_BP_C.ReceiveBeginPlay
 [2021.08.13-02.47.25:657][177]CompilerResultsLog:   [3/6] PlayerPawn.gen.cpp
 [2021.08.13-02.47.25:657][177]LogMainFrame: MainFrame: Module compiling took 16.046 seconds
 [2021.08.13-02.47.25:695][177]Warning: HotReload failed, recompile failed
+[2021.08.13-03.00.14:594][822]Candidate modules for hot reload:
+[2021.08.13-03.00.14:594][822]  GravBall
+[2021.08.13-03.00.14:595][822]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,4519 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.13-03.00.14:597][822]Warning: Starting HotReload took  0.0s.
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: New page: Compilation - Aug 13, 2021, 11:00:19 PM
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.13-03.00.19:612][372]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: Reflection code generated for GravBallEditor in 3.5763907 seconds
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: Building GravBallEditor...
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.13-03.00.19:612][372]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.08.13-03.00.19:612][372]CompilerResultsLog:   [1/6] PlayerPawn.cpp
+[2021.08.13-03.00.19:612][372]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2059: syntax error: ','
+[2021.08.13-03.00.19:612][372]CompilerResultsLog:   [2/6] GravBall.init.gen.cpp
+[2021.08.13-03.00.19:612][372]CompilerResultsLog:   [3/6] PlayerPawn.gen.cpp
+[2021.08.13-03.00.19:612][372]LogMainFrame: MainFrame: Module compiling took 5.023 seconds
+[2021.08.13-03.00.19:612][372]Warning: HotReload failed, recompile failed
+[2021.08.13-07.00.18:671][327]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ae77c13f-9d3f-4728-a3aa-b4f5642ef260}.
+[2021.08.13-07.00.18:942][327]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.13-07.00.18:974][327]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.13-07.00.18:974][327]LogAudioMixer: Display: 1: FrontRight
+[2021.08.13-07.04.24:087][198]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{e96cdf0d-0bb0-49c6-8932-09c84e798bfc}.
+[2021.08.13-07.04.24:087][198]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.13-07.04.24:264][198]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.13-07.04.24:264][198]LogAudioMixer: Display: 1: FrontRight
+[2021.08.13-12.53.09:810][939]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.13-12.53.09:840][939]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.13-12.53.09:840][939]LogAudioMixer: Display: 1: FrontRight
+[2021.08.14-01.38.01:008][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.08.14-01.38.01:009][958]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.14-01.38.01:130][958]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.14-01.38.01:130][958]LogAudioMixer: Display: 1: FrontRight
+[2021.08.14-01.38.02:621][962]LogHttp: Warning: 0000018AE3434F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x18993ea47f0 [can pipeline])
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.156.22.237) port 443 (#5))
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.08.14-01.38.02:622][962]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 7 (Closing connection 5)
+[2021.08.14-01.38.03:033][963]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream
