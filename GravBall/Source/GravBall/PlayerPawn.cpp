@@ -40,7 +40,7 @@ void APlayerPawn::SpawnBall()
 		FHitResult Hit = GetReachableObject();
 		FRotator TempRotation = Hit.ImpactPoint.Rotation();
 		FVector TempLocation = FVector(Hit.ImpactPoint.X, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);
-		//GetWorld()->SpawnActor<AActor>(Ball, TempLocation);
+		GetWorld()->SpawnActor<AActor>(Ball, TempLocation, TempRotation);
 	}
 }
 FHitResult APlayerPawn::GetReachableObject() const
