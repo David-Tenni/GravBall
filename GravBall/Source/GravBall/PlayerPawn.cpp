@@ -31,14 +31,15 @@ void APlayerPawn::Tick(float DeltaTime)
 void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	PlayerInputComponent->BindAction("Spawn", IE_Pressed, this, &APlayerPawn::SpawnBall);
 
 }
-
+ 
 void APlayerPawn::SpawnBall()
 {
 		FHitResult Hit = GetReachableObject();
 		FRotator TempRotation = Hit.ImpactPoint.Rotation();
-		FVector TempLocation = FVector(Hit.ImpactPoint.X, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);
+		FVector TempLocation = FVector(-170.0, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);
 		ABallBase* tempBall = GetWorld()->SpawnActor<ABallBase>(Ball, TempLocation, TempRotation);
 }
 FHitResult APlayerPawn::GetReachableObject() const
