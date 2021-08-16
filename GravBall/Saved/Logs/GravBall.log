@@ -13488,3 +13488,251 @@ Would you like to open the Output Log to see more details?
 [2021.08.16-07.49.02:535][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.08.16-07.49.02:559][895]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
 [2021.08.16-07.49.02:599][896]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2021.08.16-07.52.10:219][605]Candidate modules for hot reload:
+[2021.08.16-07.52.10:219][605]  GravBall
+[2021.08.16-07.52.10:219][605]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,9912 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.52.10:222][605]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.52.11:285][685]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:52:11 AM
+[2021.08.16-07.52.11:285][685]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.52.11:285][685]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.52.11:285][685]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.52.11:285][685]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.08.16-07.52.11:285][685]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2021.08.16-07.52.11:285][685]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(57) : error C3867: 'APlayerPawn::LineTraceEnd': non-standard syntax; use '&' to create a pointer to member
+[2021.08.16-07.52.11:286][685]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(57) : error C2672: 'operator __surrogate_func': no matching overloaded function found
+[2021.08.16-07.52.11:286][685]LogMainFrame: MainFrame: Module compiling took 1.072 seconds
+[2021.08.16-07.52.11:286][685]Warning: HotReload failed, recompile failed
+[2021.08.16-07.52.39:736][754]LogSlate: Window 'Message Log' being destroyed
+[2021.08.16-07.52.39:739][754]LogSlate: Window 'Message Log' being destroyed
+[2021.08.16-07.52.41:158][909]Candidate modules for hot reload:
+[2021.08.16-07.52.41:158][909]  GravBall
+[2021.08.16-07.52.41:158][909]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,1883 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.52.41:160][909]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.52.42:213][988]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:52:42 AM
+[2021.08.16-07.52.42:213][988]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.52.42:213][988]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.52.42:213][988]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.52.42:213][988]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.08.16-07.52.42:213][988]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2021.08.16-07.52.42:213][988]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(57) : error C2276: '&': illegal operation on bound member function expression
+[2021.08.16-07.52.42:213][988]LogMainFrame: MainFrame: Module compiling took 1.060 seconds
+[2021.08.16-07.52.42:214][988]Warning: HotReload failed, recompile failed
+[2021.08.16-07.54.26:669][996]LogSlate: Window 'Message Log' being destroyed
+[2021.08.16-07.54.26:673][996]LogSlate: Window 'Message Log' being destroyed
+[2021.08.16-07.54.27:755][119]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.16-07.54.27:759][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.16-07.54.27:759][119]PIE: New page: PIE session: collision_test (Aug 17, 2021, 3:54:27 AM)
+[2021.08.16-07.54.27:780][119]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_collision_test
+[2021.08.16-07.54.27:783][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003449s)
+[2021.08.16-07.54.27:784][119]LogAIModule: Creating AISystem for world collision_test
+[2021.08.16-07.54.27:785][119]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2021.08.16-07.54.27:785][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/collision_test.collision_test to /Game/Levels/UEDPIE_0_collision_test.collision_test (0.005125s)
+[2021.08.16-07.54.27:846][119]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2021.08.16-07.54.27:850][119]LogAudio: Display: Creating Audio Device:                 Id: 98, Scope: Unique, Realtime: True
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.16-07.54.27:850][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.16-07.54.27:850][119]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.16-07.54.27:850][119]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.16-07.54.27:855][119]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-07.54.27:855][119]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-07.54.27:865][119]LogAudioMixer: Display: Using Audio Device Speakers (Sennheiser SC60 Control)
+[2021.08.16-07.54.27:865][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.16-07.54.27:865][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.16-07.54.27:865][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.16-07.54.27:866][119]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.16-07.54.27:866][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.16-07.54.27:866][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.16-07.54.27:878][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.16-07.54.27:878][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.16-07.54.27:878][119]LogInit: FAudioDevice initialized.
+[2021.08.16-07.54.27:878][119]LogAudio: Display: Audio Device (ID: 98) registered with world 'collision_test'.
+[2021.08.16-07.54.27:883][119]LogLoad: Game class is 'GameModeBase'
+[2021.08.16-07.54.27:885][119]LogWorld: Bringing World /Game/Levels/UEDPIE_0_collision_test.collision_test up for play (max tick rate 0) at 2021.08.16-17.54.27
+[2021.08.16-07.54.27:885][119]LogWorld: Bringing up level for play took: 0.000892
+[2021.08.16-07.54.27:885][119]LogOnline: OSS: Creating online subsystem instance for: :Context_136
+[2021.08.16-07.54.27:886][119]PIE: Server logged in
+[2021.08.16-07.54.27:888][119]PIE: Play in editor total start time 0.129 seconds.
+[2021.08.16-07.54.27:888][119]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.27:888][119]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.28:315][169]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.28:315][169]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.28:398][179]LogBlueprintUserMessages: [colTest2_3] Frame
+[2021.08.16-07.54.28:398][179]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.28:415][181]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.28:415][181]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.28:732][219]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.28:732][219]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.28:932][243]LogBlueprintUserMessages: [colTest1] Frame
+[2021.08.16-07.54.28:932][243]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.29:024][254]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.29:024][254]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.29:149][269]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.29:149][269]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.29:507][312]LogBlueprintUserMessages: [colTest2_3] Ball
+[2021.08.16-07.54.29:507][312]LogBlueprintUserMessages: [colTest2_3] Ball1
+[2021.08.16-07.54.29:565][319]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.29:565][319]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.29:616][325]LogBlueprintUserMessages: [colTest2_3] Ball2
+[2021.08.16-07.54.29:616][325]LogBlueprintUserMessages: [colTest2_3] Frame
+[2021.08.16-07.54.29:616][325]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.29:632][327]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.29:632][327]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.29:982][369]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.29:982][369]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.30:149][389]LogBlueprintUserMessages: [colTest1] Frame
+[2021.08.16-07.54.30:149][389]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.30:240][400]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.30:240][400]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.30:399][419]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.30:399][419]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.30:816][469]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.30:816][469]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.30:832][471]LogBlueprintUserMessages: [colTest2_3] Frame
+[2021.08.16-07.54.30:833][471]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.30:849][473]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.30:849][473]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.31:232][519]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.31:232][519]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.31:365][535]LogBlueprintUserMessages: [colTest1] Frame
+[2021.08.16-07.54.31:365][535]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.31:457][546]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.31:457][546]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.31:650][569]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.31:650][569]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball1
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball2
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball3
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball4
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball5
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball6
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball7
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball8
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball9
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball10
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball11
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball12
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball13
+[2021.08.16-07.54.31:941][604]LogBlueprintUserMessages: [colTest2_3] Ball14
+[2021.08.16-07.54.31:992][610]LogBlueprintUserMessages: [colTest2_3] Ball15
+[2021.08.16-07.54.32:049][617]LogBlueprintUserMessages: [colTest2_3] Frame
+[2021.08.16-07.54.32:049][617]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.32:066][619]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.32:066][619]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.32:066][619]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.32:066][619]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.32:142][628]LogBlueprintUserMessages: [colTest2_3] Ball16
+[2021.08.16-07.54.32:482][669]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-07.54.32:482][669]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.32:582][681]LogBlueprintUserMessages: [colTest1] Frame
+[2021.08.16-07.54.32:582][681]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.32:674][692]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-07.54.32:674][692]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-07.54.32:890][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.16-07.54.32:890][714]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_collision_test
+[2021.08.16-07.54.32:890][714]LogWorld: UWorld::CleanupWorld for collision_test, bSessionEnded=true, bCleanupResources=true
+[2021.08.16-07.54.32:891][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.16-07.54.32:904][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.16-07.54.32:927][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.16-07.54.32:972][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.16-07.54.32:972][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.16-07.54.32:973][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.16-07.54.32:994][714]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.08.16-07.54.33:033][715]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2021.08.16-07.57.01:727][232]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.08.16-07.57.01:750][232]LogSavePackage: Moving '../../../../../../GameDev/GravBall/GravBall/Saved/collision_test_Auto28B6DB6AA432D9AD984FAEDAE39E99A2C.tmp' to '../../../../../../GameDev/GravBall/GravBall/Saved/Autosaves/Game/Levels/collision_test_Auto2.umap'
+[2021.08.16-07.57.01:751][232]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/collision_test' took 0.081
+[2021.08.16-07.57.01:751][232]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.081
+[2021.08.16-08.01.05:661][ 65]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.16-08.01.05:665][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.16-08.01.05:665][ 65]PIE: New page: PIE session: collision_test (Aug 17, 2021, 4:01:05 AM)
+[2021.08.16-08.01.05:696][ 65]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_collision_test
+[2021.08.16-08.01.05:699][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003056s)
+[2021.08.16-08.01.05:700][ 65]LogAIModule: Creating AISystem for world collision_test
+[2021.08.16-08.01.05:700][ 65]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2021.08.16-08.01.05:700][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/collision_test.collision_test to /Game/Levels/UEDPIE_0_collision_test.collision_test (0.004361s)
+[2021.08.16-08.01.05:753][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2021.08.16-08.01.05:755][ 65]LogAudio: Display: Creating Audio Device:                 Id: 99, Scope: Unique, Realtime: True
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.16-08.01.05:755][ 65]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.16-08.01.05:755][ 65]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.16-08.01.05:755][ 65]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.16-08.01.05:760][ 65]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-08.01.05:760][ 65]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-08.01.05:769][ 65]LogAudioMixer: Display: Using Audio Device Speakers (Sennheiser SC60 Control)
+[2021.08.16-08.01.05:770][ 65]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.16-08.01.05:770][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.16-08.01.05:770][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.16-08.01.05:770][ 65]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.16-08.01.05:770][ 65]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.16-08.01.05:770][ 65]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.16-08.01.05:781][ 65]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.16-08.01.05:781][ 65]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.16-08.01.05:781][ 65]LogInit: FAudioDevice initialized.
+[2021.08.16-08.01.05:781][ 65]LogAudio: Display: Audio Device (ID: 99) registered with world 'collision_test'.
+[2021.08.16-08.01.05:790][ 65]LogLoad: Game class is 'GameModeBase'
+[2021.08.16-08.01.05:791][ 65]LogWorld: Bringing World /Game/Levels/UEDPIE_0_collision_test.collision_test up for play (max tick rate 0) at 2021.08.16-18.01.05
+[2021.08.16-08.01.05:791][ 65]LogWorld: Bringing up level for play took: 0.000789
+[2021.08.16-08.01.05:792][ 65]LogOnline: OSS: Creating online subsystem instance for: :Context_137
+[2021.08.16-08.01.05:793][ 65]PIE: Server logged in
+[2021.08.16-08.01.05:794][ 65]PIE: Play in editor total start time 0.129 seconds.
+[2021.08.16-08.01.05:795][ 65]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.05:795][ 65]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.06:216][115]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.06:216][115]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.06:300][125]LogBlueprintUserMessages: [colTest2_3] Frame
+[2021.08.16-08.01.06:300][125]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.06:317][127]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-08.01.06:317][127]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.06:633][165]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.06:633][165]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.06:833][189]LogBlueprintUserMessages: [colTest1] Frame
+[2021.08.16-08.01.06:833][189]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.06:924][200]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-08.01.06:924][200]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.07:050][215]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.07:050][215]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.07:408][258]LogBlueprintUserMessages: [colTest2_3] Ball
+[2021.08.16-08.01.07:408][258]LogBlueprintUserMessages: [colTest2_3] Ball1
+[2021.08.16-08.01.07:408][258]LogBlueprintUserMessages: [colTest2_3] Ball2
+[2021.08.16-08.01.07:408][258]LogBlueprintUserMessages: [colTest2_3] Ball3
+[2021.08.16-08.01.07:408][258]LogBlueprintUserMessages: [colTest2_3] Ball4
+[2021.08.16-08.01.07:408][258]LogBlueprintUserMessages: [colTest2_3] Ball5
+[2021.08.16-08.01.07:467][265]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.07:467][265]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.07:517][271]LogBlueprintUserMessages: [colTest2_3] Frame
+[2021.08.16-08.01.07:517][271]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.07:533][273]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-08.01.07:533][273]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.07:568][277]LogBlueprintUserMessages: [colTest2_3] Ball6
+[2021.08.16-08.01.07:883][315]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.07:883][315]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.08:049][335]LogBlueprintUserMessages: [colTest1] Frame
+[2021.08.16-08.01.08:050][335]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.08:141][346]LogBlueprintUserMessages: [GoalHorizontal_BP_2] Frame
+[2021.08.16-08.01.08:141][346]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.08:300][365]LogBlueprintUserMessages: [GoalHorizontal_BP2_5] Frame
+[2021.08.16-08.01.08:300][365]LogBlueprintUserMessages: [Frame_2] Frame
+[2021.08.16-08.01.08:727][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.16-08.01.08:727][413]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_collision_test
+[2021.08.16-08.01.08:727][413]LogWorld: UWorld::CleanupWorld for collision_test, bSessionEnded=true, bCleanupResources=true
+[2021.08.16-08.01.08:727][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.16-08.01.08:740][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.16-08.01.08:762][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.16-08.01.08:809][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.16-08.01.08:809][413]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.16-08.01.08:810][413]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.16-08.01.08:830][413]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.08.16-08.01.08:869][414]LogPlayLevel: Display: Destroying online subsystem :Context_137

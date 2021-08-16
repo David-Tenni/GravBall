@@ -39,7 +39,7 @@ void APlayerPawn::SpawnBall()
 {
 		FHitResult Hit = GetReachableObject();
 		FRotator TempRotation = Hit.ImpactPoint.Rotation();
-		FVector TempLocation = FVector(-170.0, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);
+		FVector TempLocation = LineTraceEnd();/*FVector(-170.0, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);*/
 		ABallBase* tempBall = GetWorld()->SpawnActor<ABallBase>(Ball, TempLocation, TempRotation);
 }
 FHitResult APlayerPawn::GetReachableObject() const
@@ -54,11 +54,8 @@ FHitResult APlayerPawn::GetReachableObject() const
 		LineTraceEnd(),
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody), TraceParams
 	);
+	//UE_LOG(LogTemp, Log, TEXT("Actor within reach is: %f"), LineTraceEnd);
 
-	AActor* ActorHit = Hit.GetActor();
-	if (ActorHit) {
-		UE_LOG(LogTemp, Log, TEXT("Actor within reach is: %s"), *(ActorHit->GetName()));
-	}
 	return Hit;
 }
 FVector APlayerPawn::LineTraceEnd() const
