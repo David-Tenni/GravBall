@@ -17,7 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 	GRAVBALL_API UClass* Z_Construct_UClass_APlayerPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_GravBall();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	GRAVBALL_API UClass* Z_Construct_UClass_ABallBase_NoRegister();
 // End Cross Module References
 	void APlayerPawn::StaticRegisterNativesAPlayerPawn()
 	{
@@ -39,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Ball_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Ball;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Ball;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -68,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 		{ "ModuleRelativePath", "PlayerPawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball = { "Ball", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerPawn, Ball), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball = { "Ball", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerPawn, Ball), Z_Construct_UClass_ABallBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerPawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerPawn_Statics::NewProp_ReachDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerPawn_Statics::NewProp_Ball,
@@ -100,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerPawn, 1026814159);
+	IMPLEMENT_CLASS(APlayerPawn, 1641217668);
 	template<> GRAVBALL_API UClass* StaticClass<APlayerPawn>()
 	{
 		return APlayerPawn::StaticClass();

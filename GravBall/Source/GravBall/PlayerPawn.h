@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "BallBase.h"
 #include "PlayerPawn.generated.h"
 
 UCLASS()
@@ -32,6 +33,6 @@ private:
 	FHitResult GetReachableObject() const;
 
 	UPROPERTY(EditAnywhere)
-	AActor* Ball;
+	TSubclassOf<ABallBase> Ball;
 
 };

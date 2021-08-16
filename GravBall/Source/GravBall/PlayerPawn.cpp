@@ -2,6 +2,7 @@
 
 
 #include "PlayerPawn.h"
+#include "BallBase.h"
 #include "Kismet/GameplayStatics.h"
 // Sets default values
 APlayerPawn::APlayerPawn()
@@ -35,13 +36,10 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void APlayerPawn::SpawnBall()
 {
-	if(Ball)
-	{
 		FHitResult Hit = GetReachableObject();
 		FRotator TempRotation = Hit.ImpactPoint.Rotation();
 		FVector TempLocation = FVector(Hit.ImpactPoint.X, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);
-		GetWorld()->SpawnActor<AActor>(Ball, TempLocation, TempRotation);
-	}
+		ABallBase* tempBall = GetWorld()->SpawnActor<ABallBase>(Ball, TempLocation, TempRotation);
 }
 FHitResult APlayerPawn::GetReachableObject() const
 {

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GravBall.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FC2D77B0-BB56-46CF-994A-57C8F836D1F6}</UniqueIdentifier>
+      <UniqueIdentifier>{7D074386-0634-4A0A-959B-2FB3469216BE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GravBall.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B49BA15B-0641-4CD7-A79F-2CA6809DBC2E}</UniqueIdentifier>
+      <UniqueIdentifier>{B831561E-F0B2-4A20-A10C-E0A5F0406CE8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GravBall">
-      <UniqueIdentifier>{FEB1EC9B-28B6-45EB-BF16-102408142F3E}</UniqueIdentifier>
+      <UniqueIdentifier>{C9B3B497-EEA9-4ED0-807C-90BDFEDCC74B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GravBall\BallBase.cpp">
+      <Filter>Source\GravBall</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GravBall\BallBase.h">
+      <Filter>Source\GravBall</Filter>
+    </ClInclude>
     <None Include="..\..\Source\GravBall\GravBall.Build.cs">
       <Filter>Source\GravBall</Filter>
     </None>

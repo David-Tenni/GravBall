@@ -12520,3 +12520,263 @@ Goal_BP_C.ReceiveBeginPlay
 [2021.08.15-01.32.40:223][143]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
 [2021.08.15-01.32.40:223][143]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 7 (Closing connection 6)
 [2021.08.15-01.32.40:223][143]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.08.15-08.29.40:795][188]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-08.29.40:827][188]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-08.29.40:827][188]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-11.23.20:504][204]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-11.23.23:103][204]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.08.15-11.23.23:104][204]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-11.23.23:104][204]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-11.23.24:149][205]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-11.23.24:227][205]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-11.23.24:227][205]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x18993ea7550 [can pipeline])
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 1 (Re-using existing connection! (#7) with host datarouter.ol.epicgames.com)
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.175.23.42) port 443 (#7))
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.08.15-11.23.24:802][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.08.15-11.23.24:803][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.08.15-11.23.24:803][208]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 7 (Closing connection 7)
+[2021.08.15-11.23.25:076][209]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.08.15-12.52.23:229][213]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-12.52.23:260][213]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-12.52.23:260][213]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-22.54.19:040][229]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-22.54.21:598][229]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.08.15-22.54.21:598][229]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-22.54.21:599][229]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-22.54.23:079][230]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-22.54.23:309][230]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-22.54.23:309][230]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-22.54.24:300][234]LogHttp: Warning: 0000018AE3434F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.08.15-22.54.24:300][234]LogHttp: Warning: 0000018AE3434F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.08.15-22.54.24:300][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x18993ea5000 [can pipeline])
+[2021.08.15-22.54.24:301][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2021.08.15-22.54.24:303][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.20.79.221) port 443 (#8))
+[2021.08.15-22.54.24:303][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.08.15-22.54.24:304][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.08.15-22.54.24:304][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.08.15-22.54.24:304][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.08.15-22.54.24:304][234]LogHttp: Warning: 0000018AE3434F00: libcurl info message cache 7 (Closing connection 8)
+[2021.08.15-22.54.24:631][235]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE30B8478-4389-C1E1-8C73-3DB6392FCB09%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb6fe3b14a2496eeb19b48969b73ea0a%7Cd5cc425601204eb09037f59be9e27690%7Cc6b6dbfc-b7ae-4233-b04b-852e692842fa&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.08.15-22.55.20:330][401]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{426df66e-d198-4a09-bcfc-b6b622dd25c1}.
+[2021.08.15-22.55.20:330][401]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-22.55.20:350][401]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-22.55.20:350][401]LogAudioMixer: Display: 1: FrontRight
+[2021.08.15-22.56.02:494][527]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{426df66e-d198-4a09-bcfc-b6b622dd25c1}.
+[2021.08.15-22.56.02:494][527]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.15-22.56.02:543][527]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.15-22.56.02:543][527]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-02.28.00:252][673]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{e96cdf0d-0bb0-49c6-8932-09c84e798bfc}.
+[2021.08.16-02.28.00:253][673]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.16-02.28.00:357][673]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-02.28.00:357][673]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-03.05.29:255][420]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.16-03.05.29:277][420]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-03.05.29:277][420]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-03.05.30:592][424]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.16-03.05.30:614][424]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-03.05.30:614][424]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-03.05.30:669][424]LogAudioMixer: Error: XAudio2 Error: XAudio2System->CreateMasteringVoice( &OutputAudioStreamMasteringVoice, AudioStreamInfo.DeviceInfo.NumChannels, AudioStreamInfo.DeviceInfo.SampleRate, 0, nullptr, nullptr, AudioCategory_GameEffects) -> 0x88960004: XAUDIO2_E_DEVICE_INVALIDATED (line: 1271)
+[2021.08.16-03.05.30:931][425]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{426df66e-d198-4a09-bcfc-b6b622dd25c1}.
+[2021.08.16-03.05.30:931][425]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.16-03.05.30:944][425]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-03.05.30:944][425]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-07.04.52:864][911]Candidate modules for hot reload:
+[2021.08.16-07.04.52:864][911]  GravBall
+[2021.08.16-07.04.52:865][911]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,3235 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.04.52:870][911]Warning: Starting HotReload took  0.1s.
+[2021.08.16-07.04.57:741][146]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:04:57 AM
+[2021.08.16-07.04.57:743][146]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.04.57:744][146]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.04.57:744][146]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.04.57:744][146]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2672: 'UWorld::SpawnActor': no matching overloaded function found
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2440: 'initializing': cannot convert from 'AActor *' to 'const FVector &'
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:   C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43): note: Reason: cannot convert from 'AActor *' to 'const FVector'
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:   C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2780: 'T *UWorld::SpawnActor(const FActorSpawnParameters &)': expects 1 arguments - 3 provided
+[2021.08.16-07.04.57:744][146]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/World.h(3086): note: see declaration of 'UWorld::SpawnActor'
+[2021.08.16-07.04.57:744][146]LogMainFrame: MainFrame: Module compiling took 4.905 seconds
+[2021.08.16-07.04.57:744][146]Warning: HotReload failed, recompile failed
+[2021.08.16-07.15.56:747][455]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{e96cdf0d-0bb0-49c6-8932-09c84e798bfc}.
+[2021.08.16-07.15.56:747][455]LogAudioMixer: Resetting audio stream to device id 
+[2021.08.16-07.15.56:786][455]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.16-07.15.56:786][455]LogAudioMixer: Display: 1: FrontRight
+[2021.08.16-07.19.46:920][620]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/GameDev/GravBall/GravBall/GravBall.uproject" -game -rocket -progress
+[2021.08.16-07.19.47:227][620]Discovering modules, targets and source code for project...
+[2021.08.16-07.19.50:536][620]Binding IntelliSense data...
+[2021.08.16-07.19.56:052][620]Binding IntelliSense data... 100%
+[2021.08.16-07.19.56:052][620]Writing project files...
+[2021.08.16-07.20.00:468][620]Writing project files... 100%
+[2021.08.16-07.20.00:583][620]Candidate modules for hot reload:
+[2021.08.16-07.20.00:583][620]  GravBall
+[2021.08.16-07.20.00:583][620]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,8501 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:20:13 AM
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Creating makefile for GravBallEditor (no existing makefile)
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Reflection code generated for GravBallEditor in 9.797418 seconds
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.20.13:816][620]CompilerResultsLog: Building 7 actions with 12 processes...
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   [1/7] PlayerPawn.cpp
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2672: 'UWorld::SpawnActor': no matching overloaded function found
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2440: 'initializing': cannot convert from 'AActor *' to 'const FVector &'
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43): note: Reason: cannot convert from 'AActor *' to 'const FVector'
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(43) : error C2780: 'T *UWorld::SpawnActor(const FActorSpawnParameters &)': expects 1 arguments - 3 provided
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/World.h(3086): note: see declaration of 'UWorld::SpawnActor'
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   [2/7] BallBase.cpp
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   [3/7] GravBall.init.gen.cpp
+[2021.08.16-07.20.13:816][620]CompilerResultsLog:   [4/7] BallBase.gen.cpp
+[2021.08.16-07.20.13:816][620]LogMainFrame: MainFrame: Module compiling took 13.239 seconds
+[2021.08.16-07.20.13:816][620]Warning: HotReload failed, recompile failed
+[2021.08.16-07.20.13:816][620]Warning: RebindPackages failed because compilation failed.
+[2021.08.16-07.25.17:416][620]LogSlate: Window 'Message' being destroyed
+[2021.08.16-07.25.17:420][620]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'BallBase', however you must recompile the 'GravBall' module before it will appear in the Content Browser. Failed to automatically hot reload the 'GravBall' module.
+
+Would you like to open the Output Log to see more details?
+[2021.08.16-07.25.17:422][620]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.08.16-07.25.23:038][278]Candidate modules for hot reload:
+[2021.08.16-07.25.23:038][278]  GravBall
+[2021.08.16-07.25.23:039][278]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,2280 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.25.23:041][278]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.25.27:205][718]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:25:27 AM
+[2021.08.16-07.25.27:206][718]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.25.27:206][718]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.16-07.25.27:206][718]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.16-07.25.27:206][718]CompilerResultsLog: Error: C:/GameDev/GravBall/GravBall/Source/GravBall/PlayerPawn.h(36)  : Error: Unrecognized type 'BallBase' - type must be a UCLASS, USTRUCT or UENUM
+[2021.08.16-07.25.27:206][718]LogMainFrame: MainFrame: Module compiling took 4.173 seconds
+[2021.08.16-07.25.27:206][718]Warning: HotReload failed, recompile failed
+[2021.08.16-07.26.21:008][736]Candidate modules for hot reload:
+[2021.08.16-07.26.21:008][736]  GravBall
+[2021.08.16-07.26.21:008][736]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,8889 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.26.21:011][736]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.26.25:438][170]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:26:25 AM
+[2021.08.16-07.26.25:438][170]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.26.25:438][170]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.16-07.26.25:438][170]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.16-07.26.25:438][170]CompilerResultsLog: Error: C:/GameDev/GravBall/GravBall/Source/GravBall/PlayerPawn.h(38)  : Error: Member variable declaration: Missing variable type
+[2021.08.16-07.26.25:438][170]LogMainFrame: MainFrame: Module compiling took 4.436 seconds
+[2021.08.16-07.26.25:438][170]Warning: HotReload failed, recompile failed
+[2021.08.16-07.26.56:945][471]Candidate modules for hot reload:
+[2021.08.16-07.26.56:945][471]  GravBall
+[2021.08.16-07.26.56:946][471]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,5865 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.26.56:948][471]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.27.01:113][717]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:27:01 AM
+[2021.08.16-07.27.01:113][717]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.27.01:113][717]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.16-07.27.01:113][717]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.16-07.27.01:113][717]CompilerResultsLog: Error: C:/GameDev/GravBall/GravBall/Source/GravBall/PlayerPawn.h(38)  : Error: Member variable declaration: Missing variable type
+[2021.08.16-07.27.01:113][717]LogMainFrame: MainFrame: Module compiling took 4.172 seconds
+[2021.08.16-07.27.01:113][717]Warning: HotReload failed, recompile failed
+[2021.08.16-07.30.54:564][175]Candidate modules for hot reload:
+[2021.08.16-07.30.54:564][175]  GravBall
+[2021.08.16-07.30.54:565][175]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,1236 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.30.54:567][175]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:31:00 AM
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.16-07.31.00:068][769]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: Reflection code generated for GravBallEditor in 3.7522469 seconds
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.31.00:068][769]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.08.16-07.31.00:068][769]CompilerResultsLog:   [1/6] GravBall.init.gen.cpp
+[2021.08.16-07.31.00:068][769]CompilerResultsLog:   [2/6] PlayerPawn.gen.cpp
+[2021.08.16-07.31.00:068][769]CompilerResultsLog:   [3/6] PlayerPawn.cpp
+[2021.08.16-07.31.00:068][769]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(39) : error C2059: syntax error: ')'
+[2021.08.16-07.31.00:068][769]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(40) : error C2143: syntax error: missing ';' before '{'
+[2021.08.16-07.31.00:068][769]LogMainFrame: MainFrame: Module compiling took 5.508 seconds
+[2021.08.16-07.31.00:068][769]Warning: HotReload failed, recompile failed
+[2021.08.16-07.31.58:105][862]Candidate modules for hot reload:
+[2021.08.16-07.31.58:105][862]  GravBall
+[2021.08.16-07.31.58:105][862]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,6175 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.31.58:107][862]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:32:00 AM
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.08.16-07.32.00:729][129]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2021.08.16-07.32.00:729][129]CompilerResultsLog:   [2/4] UE4Editor-GravBall-6175.lib
+[2021.08.16-07.32.00:729][129]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-6175.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-6175.exp
+[2021.08.16-07.32.00:729][129]CompilerResultsLog:   [3/4] UE4Editor-GravBall-6175.dll
+[2021.08.16-07.32.00:729][129]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-6175.suppressed.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-6175.suppressed.exp
+[2021.08.16-07.32.00:729][129]CompilerResultsLog:   [4/4] GravBallEditor.target
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: Total time in Parallel executor: 2.06 seconds
+[2021.08.16-07.32.00:729][129]CompilerResultsLog: Total execution time: 2.55 seconds
+[2021.08.16-07.32.00:729][129]LogMainFrame: MainFrame: Module compiling took 2.630 seconds
+[2021.08.16-07.32.01:601][129]LogClass: Could not find existing class BallBase in package /Script/GravBall for HotReload, assuming new class
+[2021.08.16-07.32.01:620][129]LogClass: Could not find existing class PlayerPawn in package /Script/GravBall for HotReload, assuming new class
+[2021.08.16-07.32.01:680][129]LogHotReload: Re-instancing PlayerPawn after hot-reload.
+[2021.08.16-07.32.02:328][129]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0027 seconds. Added 4 classes and 2 folders.
+[2021.08.16-07.32.02:344][129]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.16-07.32.02:864][129]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0239 seconds. Added 3605 classes and 861 folders.
+[2021.08.16-07.32.02:866][129]Display: HotReload took  4.8s.
+[2021.08.16-07.37.56:130][107]Candidate modules for hot reload:
+[2021.08.16-07.37.56:130][107]  GravBall
+[2021.08.16-07.37.56:130][107]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,2031 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.37.56:133][107]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:38:01 AM
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: Parsing headers for GravBallEditor
+[2021.08.16-07.38.01:573][689]CompilerResultsLog:   Running UnrealHeaderTool "C:\GameDev\GravBall\GravBall\GravBall.uproject" "C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\GravBallEditor\Development\GravBallEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\elvev\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: Reflection code generated for GravBallEditor in 3.7857082 seconds
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.38.01:573][689]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.08.16-07.38.01:574][689]CompilerResultsLog:   [1/6] GravBall.init.gen.cpp
+[2021.08.16-07.38.01:574][689]CompilerResultsLog:   [2/6] PlayerPawn.gen.cpp
+[2021.08.16-07.38.01:574][689]CompilerResultsLog:   [3/6] PlayerPawn.cpp
+[2021.08.16-07.38.01:574][689]CompilerResultsLog:    C:\GameDev\GravBall\GravBall\Source\GravBall\PlayerPawn.cpp(42) : error C2275: 'ABallBase': illegal use of this type as an expression
+[2021.08.16-07.38.01:574][689]CompilerResultsLog:   C:\GameDev\GravBall\GravBall\Source\GravBall\BallBase.h(10): note: see declaration of 'ABallBase'
+[2021.08.16-07.38.01:574][689]LogMainFrame: MainFrame: Module compiling took 5.448 seconds
+[2021.08.16-07.38.01:574][689]Warning: HotReload failed, recompile failed
+[2021.08.16-07.38.40:933][685]LogSlate: Window 'Message Log' being destroyed
+[2021.08.16-07.38.40:937][685]LogSlate: Window 'Message Log' being destroyed
+[2021.08.16-07.38.42:335][839]Candidate modules for hot reload:
+[2021.08.16-07.38.42:335][839]  GravBall
+[2021.08.16-07.38.42:335][839]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GravBall,5663 GravBallEditor Win64 Development -Project="C:/GameDev/GravBall/GravBall/GravBall.uproject" "C:/GameDev/GravBall/GravBall/GravBall.uproject"  -IgnoreJunk]
+[2021.08.16-07.38.42:337][839]Warning: Starting HotReload took  0.0s.
+[2021.08.16-07.38.44:629][ 58]CompilerResultsLog: New page: Compilation - Aug 17, 2021, 3:38:44 AM
+[2021.08.16-07.38.44:629][ 58]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\GameDev\GravBall).
+[2021.08.16-07.38.44:629][ 58]CompilerResultsLog: Building GravBallEditor...
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog: Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog:   [2/4] UE4Editor-GravBall-5663.lib
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-5663.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-5663.exp
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog:   [3/4] UE4Editor-GravBall-5663.dll
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog:      Creating library C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-5663.suppressed.lib and object C:\GameDev\GravBall\GravBall\Intermediate\Build\Win64\UE4Editor\Development\GravBall\UE4Editor-GravBall-5663.suppressed.exp
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog:   [4/4] GravBallEditor.target
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog: Total time in Parallel executor: 1.73 seconds
+[2021.08.16-07.38.44:630][ 58]CompilerResultsLog: Total execution time: 2.22 seconds
+[2021.08.16-07.38.44:630][ 58]LogMainFrame: MainFrame: Module compiling took 2.300 seconds
+[2021.08.16-07.38.44:693][ 58]LogClass: Could not find existing class PlayerPawn in package /Script/GravBall for HotReload, assuming new class
+[2021.08.16-07.38.44:709][ 58]LogHotReload: Re-instancing PlayerPawn after hot-reload.
+[2021.08.16-07.38.44:762][ 58]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GravBall' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.08.16-07.38.44:778][ 58]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.08.16-07.38.44:980][ 58]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3605 classes and 861 folders.
+[2021.08.16-07.38.44:982][ 58]Display: HotReload took  2.7s.
+[2021.08.16-07.39.26:310][729]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/PlayerPawn_BP.PlayerPawn_BP
+[2021.08.16-07.39.26:830][729]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.08.16-07.39.52:409][695]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Ball.Ball
+[2021.08.16-07.39.52:688][695]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.08.16-07.39.58:229][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball" FILE="../../../../../../GameDev/GravBall/GravBall/Content/Ball.uasset" SILENT=true
+[2021.08.16-07.39.58:256][305]LogSavePackage: Moving '../../../../../../GameDev/GravBall/GravBall/Saved/Ball3949F96845E9F6736889D485B3468048.tmp' to '../../../../../../GameDev/GravBall/GravBall/Content/Ball.uasset'
+[2021.08.16-07.39.58:285][305]AssetCheck: New page: Asset Save: Ball
+[2021.08.16-07.39.58:286][305]LogContentValidation: Display: Validating Blueprint /Game/Ball.Ball
+[2021.08.16-07.39.58:907][376]BlueprintLog: New page: Compile Ball
+[2021.08.16-07.40.00:318][376]LogUObjectHash: Compacting FUObjectHashTables data took  14.65ms
+[2021.08.16-07.40.00:367][376]BlueprintLog: New page: Compile Ball
+[2021.08.16-07.40.00:733][376]LogUObjectHash: Compacting FUObjectHashTables data took  10.62ms
+[2021.08.16-07.40.07:876][196]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.08.16-07.40.10:864][545]BlueprintLog: New page: Compile PlayerPawn_BP
+[2021.08.16-07.40.10:939][545]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
