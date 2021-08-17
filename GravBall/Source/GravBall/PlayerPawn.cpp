@@ -41,6 +41,8 @@ void APlayerPawn::SpawnBall()
 		FRotator TempRotation = Hit.ImpactPoint.Rotation();
 		FVector TempLocation = LineTraceEnd();/*FVector(-170.0, Hit.ImpactPoint.Y, Hit.ImpactPoint.Z);*/
 		ABallBase* tempBall = GetWorld()->SpawnActor<ABallBase>(Ball, TempLocation, TempRotation);
+		//UE_LOG(LogTemp, Log, TEXT("Actor within reach is: %f"), TempLocation.X;
+
 }
 FHitResult APlayerPawn::GetReachableObject() const
 {
